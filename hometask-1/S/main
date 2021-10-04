@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	float full_height; // can't be negative
+	float speed_up = 1;
+	float speed_down; // can't be negative
+	float day; // can't be negative
+	cin >> full_height;
+	cin >> speed_down;
+	day = full_height / (speed_up - speed_down) ;
+	cout << "on" << day << "days";
+}
